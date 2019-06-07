@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Documento */
+
+body{
+	font-family:"Century Gohric";
+	line-height:20px;
+}
+
+#barra_superior {
+	background:url(../imagens/barra_topo.png);
+	width:100%;
+	height:150px;
+	border-bottom:5px solid #fff;
+}
+
+.menu ul {
+	margin-top: -120px;
+	margin-left: 20px;
+	float:left; /*flutuação a esquerda */
+}
+
+.menu ul li{
+	display: inline;
+	padding:0 20px 0 20px;
+	font-family:"Century Ghotic";
+}
+
+.menu ul li a {
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.menu ul li a:hover{
+	text-decoration:underline;
+}
+
+.menu ul li a.active {
+	text-decoration:none;
+	color:#f60;
+}
+
+.banner_home{
+	background:url(../fotos_topo/home.jpg);
+	width:920PX;
+	height:215px;
+	margin:-80px auto 0;
+}
+#geral_home {
+	width:980px;
+	margin:20px auto 0;
+	
+}
+
+.conteudo_ geral_home {
+	width:960px;
+	height:800px;
+	background-color:#fff;
+	margin:20px auto0;
+}
+
+.titulo{
+	padding:20px 0 0 15px;
+	font-size:20px;
+	font-weight:900;
+	color:#f30;
+}
+
+.foto_home {
+	background:url(../imagens/flor.JPG);
+	width:330px;
+	height:166px;
+	float:left;
+	margin-left:15px;
+	margin-top:30px
+}
+
+.bloco_texto{
+	width:590px;
+	height:300px;
+	margin-top:30px;
+	float:left;
+}
+
+.bloco_texto p{
+	text-align:justify;
+	color:#999;
+}
+
+
+
+.titulo_verde {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #090;
+}
+
+.bloco_texto a {
+	text-decoration:none;
+	font-size:16px;
+	color:#f60;
+	
+}
+
+.bloco_texto a:hover{
+	text-decoration:underline;
+	color:#f30
+}
+.regua{
+	border:1px solid #ccc;
+	width:870px;
+	margin:auto;
+	clear:both;/*zera as divs herdadas*/
+	
+}
+.grupo_miniaturas{
+	width:589px;
+	height:139px;
+	margin:20px auto;
+	background:url(../imagens/miniaturas.jpg);
+	
+}
+.qual{
+	width:900px;
+	height:120px;
+	margin10px auto;
+}
+.qual p{
+	text-align:justify
+	color: #999;
+}
+/*Fim página Home*/
+
+/*Inicio página Loja*/
+
+.banner_loja{
+	background:url(../fotos_topo/loja.jpg);
+	width:920PX;
+	height:215px;
+	margin:-80px auto 0;
+}
+#geral_loja {
+	width:980px;
+	margin:20px auto 0;
+	
+}
+
+#conteudo_ geral_loja {
+	width:960px;
+	height:800px;
+	background-color:#fff;
+	margin:20px auto0;
+}

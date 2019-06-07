@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Documento */
+
+body {
+	font-family:"Century Ghotic";
+	line-height:20px;
+}
+
+/* Pagina Inicial */
+
+#barra_superior {
+	background:url(../imagens/barra_topo.png);
+	width:100%;
+	height:150px;
+	border-bottom: 5px solid #FFF;
+}
+
+.menu ul {
+	margin-top:-120px;
+	margin-left:20px;
+	float:left; /* flutuação */
+}
+
+.menu ul li {
+	display:inline;
+	padding:0 20px 0 20px;
+	text-transform:uppercase;
+	font-family: "Century Ghotic";
+}
+
+.menu ul li a {
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.menu ul li a:hover {
+	text-decoration:underline;
+}
+
+.menu ul li a.active {
+	text-decoration:none;
+	color:#F60;
+}
+
+.banner_home {
+	background:url(../fotos_topo/home.jpg);
+	width:920px;
+	height:215px;
+	margin: -80px auto 0;
+}
+
+#geral_home {
+	width:980px;
+	margin:20px auto 0;
+}
+
+.conteudo_geral_home {
+	background-color:#FFF;
+	width:980px;
+	height:700px;
+}
+
+.titulo {
+	padding:20px 0 0 15px;
+	font-family:"Century Ghotic";
+	font-size:24px;
+	font-weight:900;
+	color:#F30;
+}
+
+.foto_home {
+	background:url(../imagens/flor.JPG);
+	width:330px;
+	height:166px;
+	float:left;
+	margin-left:15px;
+	margin-top:30px;
+}
+
+.bloco_texto {
+	width:590px;
+	height:300px;
+	float:left;
+	margin-top:30px;
+	text-align:justify;
+}
+
+.titulo-verde {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:18px;
+	text-transform:uppercase;
+	color:#093;
+}
+
+.bloco_texto a {
+	text-decoration:none;
+	font-family:"Century Ghotic";
+	font-size:16px;
+	color:#F60;
+}
+
+.bloco_texto a:hover {
+	text-decoration:underline;
+	color:#F30;
+}
+
+.regua {
+	border: 1px solid #CCC;
+	width:870px;
+	margin:auto;
+	clear:both; /* zera as divs herdadas */
+}
+
+.grupo_miniaturas {
+	width:589px;
+	height:139px;
+	margin:20px auto;
+	background:url(../imagens/miniaturas.jpg);
+}
+
+.qual {
+	width:900px;
+	height:120px;
+	margin:10px auto;
+}
+
+.qual p {
+	text-align:justify;
+	color:#999;
+}
+
+/* Fim página Home */
+
+/* Inicio página Loja */
+
+.banner_loja {
+	background:url(../fotos_topo/loja.jpg);
+	width:920px;
+	height:215px;
+	margin: -80px auto 0;
+}
+
+#geral_loja {
+	width:980px;
+	height:270px;
+	margin:20px auto 0;
+}
+
+.conteudo_geral_loja {
+	background-color:#FFF;
+	width:980px;
+	height:260px;
+}
+.bloco_texto_loja{
+	width:900px;
+	height:250px;
+	margin:20px auto;
+}
+
+.bloco_texto_loja p{
+	text-align:justify;
+	color:#999;
+}
+
+/* Fim Página Loja*/
+
+/*Inicio Página Projeto*/
+
+.banner_projetos {
+	background:url(../fotos_topo/projetos.jpg);
+	width:920px;
+	height:215px;
+	margin: -80px auto 0;
+}
+
+#geral_projetos {
+	width:980px;
+	height:400px;
+	margin:20px auto 0;
+}
+
+.conteudo_geral_projetos {
+	background-color:#FFF;
+	width:980px;
+	height:390px;
+}
+.bloco_texto_projetos{
+	width:900px;
+	height:380px;
+	margin:20px auto;
+}
+
+.bloco_texto_projetos p{
+	text-align:justify;
+	color:#999;
+	
+}
+	
+/*Fim Página Projeto*/
+/*inico página Manutenção*/
+
+
+
+.banner_manutencao {
+	background:url(../fotos_topo/manutencao.jpg);
+	width:920;
+	height:215;
+	margin:-80px auto 0;
+}
+
+#geral_manutençao{
+	width:980;
+	height:600px;
+	margin:20 auto 0;
+}
+
+.conteudo_geral_manutencao {
+	background-color:#FFF;
+	width:980px;
+	height:590px;
+	margin:20px auto 0;
+
+}
+
+.bloco_texto_manutencao{
+	width:900px;
+	height:580px;
+	margin:20px auto;
+}
+
+.bloco_texto_projetos p{
+	text-align:justify;
+	color:#999;
+}
+/*fim pagina manutenção*/
+
+/*Inicio pagina contato*/
+
+.banner_contato {
+	background:;
+	width:920;
+	height:215;
+	margin:-80px auto 0;
+}
+
+#geral_contato{
+	width:980;
+	height:570px;
+	margin:20 auto 0;
+}
+
+.conteudo_geral_contato {
+	background-color:#FFF;
+	width:980px;
+	height:590px;
+	margin:20px auto 0;
+
+}
+
+.bloco_texto_contato{
+	width:500px;
+	height:560px;
+	margin:20px 0 0 20px;
+	float:left;
+}
+
+.bloco_texto_contato p{
+	text-align:justify;
+	color:#999;
+}
+
+.mapa {
+	width:450px;
+	height:500px;
+	float:left;
+}
+
+.mapa a {
+	text-decoration:none;
+	font-size:16px;
+	color:#f60;
+}
+.mapa a:hover {
+	text-decoration:underline;
+	color:#f30;
+}
